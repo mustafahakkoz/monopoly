@@ -1,0 +1,116 @@
+Object Oriented Software Design
+Due Nov 2, 10:59 PM
+CSE3063: First Project: Monopoly Game in Java
+
+Murat Ganiz
+Oct 15
+Dear CSE3063 Students, 
+
+For your first project you can have project groups of at least 2 at max 4 students. It is a Monopoly game with increasing functionality is added at each iteration. You should implement it as a simulation in which the simulated players plays the game for a max number of iterations and prints the status of each players actions to the system user. More details and clarification to your questions will be provided ONLY in the classroom so please try to attend classes.
+
+After you determined your project groups, you need to
+
+1- open a GitHub account with a meaningful, identifiable name (example: murat.ganiz)
+If you use your student email address, you could be able to create private repositories.
+
+2- open a private GitHub repository using the following naming pattern: 
+cse3063f18p1[first name second name initial last name_*]
+for instance if I have two people in my group, Murat Can Ganiz and Berna Altýnel, My repo name should be: cse3063f18p1_mcganiz_baltinel 
+(note: do not open a organization! just open a repo. One of the group members should open the repo and add others as collaborators)
+
+3- add your fellow group members as collaborators to this repo
+
+4- add me (murat.ganiz) and your TA (Berna Altýnel) as collaborators to this repo
+
+5- create and empty project with a single java file which prints "hello world" in (I recommend IntelliJ, it is free for students), integrate GitHub repo into the IDE (you may need to install Git into your system) and push it to the repo. 
+
+6- update it as frequently as possible and meaningful! 
+
+
+You need to provide following artifacts by the iteration deadlines:
+
+Artifacts need to be submitted and updated at each iteration:
+1- A simple Requirement Analysis Document (an example is provided at the end of the email) (File name example: CSE3063F18P1_RAD_mcganiz_baltinel_iteration1.pdf )
+
+2- A Domain Model as an partial UML class diagram showing real world objects and concepts with their important attributes and relations between them. You can draw this into a paper or white board and then take a picture and submit it as a pdf file using mobile apps such as CamScanner. In this case however, your drawings and writings must be clear, readable, and understandable.
+(File name example: CSE3063F18P1_DOMAINMODEL_mcganiz_baltinel_iteration1.pdf )
+
+3- An UML class diagram
+(File name example: CSE3063F18P1_DCD_mcganiz_baltinel_iteration1.pdf )
+
+5- UML Sequence Diagram(s) showing interactions between software objects of your system. Likewise you can draw this as described above. (File name example: CSE3063F18P1_DSD_mcganiz_baltinel_iteration1.pdf )
+
+6- Java Code 
+
+All these 6 items must be added to your GitHub repo by the iteration deadlines.
+I expect several pushes of java code from the different members of the group for each iteration.
+
+1st iteration deadline: Thu, November 2nd Friday, 23:59
+2nd iteration deadline: Thu, November 30th Friday, 23:59 
+3rd iteration deadline: Thu, November 23, 14:00
+
+
+Example RAD Document (I expect your documents to be simpler, not this detailed. Try to keep it simple yet clear and understandable for effective communication):
+
+Requirement Specification
+Vision
+We envision an intranet-based Employment Application Review System for Department of Computer Science. The system shall be designed so that department faculty members can review applicants and collaborate asynchronously in order to find the best applicant for a given job opening. This system will reduce the overhead of the process and lighten the workload for the search chairperson.
+
+Problem Statement
+The current process for reviewing potential applicants has been improved in the past year; however the process is still highly manual and places a large portion of the administrative workload on the search chairperson. In the past year, a mechanism has been created that moved from an entirely paper-based process to a method for applicants to submit documents electronically. Currently faculty members are provides access to an applicant’s documents via a hierarchical directory structure shared over the CSE network. The administration of the process, however, includes tracking individual faculty members review ratings and comments concerning individual applicants. It is still managed solely by the chairperson, in a manual form such as an Excel spreadsheet. This causes a large amount of overhead and manual work that could be replaced by an online search management system.
+
+Scope
+The EARS system will provide the following high level functionality:
+The ability for applicants to apply for a potential job opening online, and submit
+supporting documents for their application.
+The ability for a chairperson to create a committee for the given search.
+The ability for the chairperson to give initial ratings for a given applicant.
+The ability for a chairperson to delegate reviews of applicants to committee and faculty
+
+System constraints:
+* Will run within a browser environment and therefore require no additional software to be installed on a client machine
+* Will provide a Graphical User Interface that allows for point-and-click interaction. 
+* Will interface with a database that is responsible for the storage and retrieval of
+information
+
+Stakeholders:
+Murat Can Ganiz (Customer)
+ali veli (Project Manager, Analyst/Programmer)
+ahmet mehmet (Librarian, Analyst/Programmer)
+
+Glossary of Terms (Alphabetically listed)
+Applicant - a person who has completed an applicant profile and submitted it to EARS for
+consideration of employment against an open search within the CSE Department 
+Chairperson - The Chairperson of a given search committee. This user is granted the highest
+levels of system permissions including the ability to appoint an EARS User to his/her
+Committee, update an Applicants Status and release an Applicant to the rest of the Systems users
+for review.
+Committee - A set of EARS Users granted greater levels of access permissions in order to
+evaluate applicants against a given search. The set is configurable by the Chairperson of the
+Search
+Dashboard – a place where the EARS user receives notifications
+
+Use Cases
+Applicant logs into external EARS System
+Actors: Applicant, EARS System
+Precondition: None
+1. Applicant navigates to EARS home page
+2. EARS System displays EARS home page
+3. Applicant enters login information
+4. EARS System validates login information
+5. EARS System displays EARS home page for logged in Applicant
+Alternatives
+4a. EARS System detects that login credentials do not match database records
+1. Applicant is asked to re-enter login information into EARS System
+5a. EARS System detects that Applicants is logging for the first time
+1. System prompts Applicant to enter new password (x2)
+2. Applicant enters password (x2)
+3a. EARS system accepts Applicants new password
+1. Return to primary scenario at Step 5
+3b. New password denied
+1. EARS System denies Applicants new password and provide explanation
+2. Return to Step 1
+Your work
+Assigned
+Files you add or create can be viewed and edited by your teacher
+Mark as done or attach work to turn in
