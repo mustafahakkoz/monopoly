@@ -1,4 +1,3 @@
-# cse3063f18p1_dagurzihin_mahakkoz_ekundakcioglu
 ## MONOPOLY GAME
 
 150116065 Deniz Arda Gürzihin  
