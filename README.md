@@ -6,6 +6,8 @@
 150115841 Erman Kundakcıoğlu  
 
 
+A command line based Monopoly game in java with OOP and design pattern principles.
+
 
 ## [first iteration](https://github.com/mustafahakkoz/monopoly/tree/master/iteration1): 02.11.2018
 
